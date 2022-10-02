@@ -1,0 +1,61 @@
+body{
+    background-color: #85adf58a;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 60%;
+    height: 1rem;
+}
+.coulmn2{
+    float:none;
+    width: 5%;
+    height: 1rem;
+}
+
+.column3 {
+    float: right;
+    width: 35%;
+    height: 1rem;
+}
+#broder{
+    border: 2px solid black;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display:inline-block;
+    clear: both;
+     
+}
+.input{
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    text-decoration: none;
+    margin-top:15rem ;
+    border: 2px solid black;
+    border-radius: 2pc;
+}
+.button {
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:1rem ;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #alert1,#alert2{
+    color: red;
+  }
